@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>table design
+
+        </title>
+
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th>S.N</th>
+                <th>Name</th>
+                <th>address</th>
+                <th>contact</th>
+                <th>email</th>
+            
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>bhawana</td>
+                <td>myanglung </td>
+                <td>9862810555</td>
+                <td>bhawana@gmail.com</td>
+            </tr>
+            
+        </table>
+    </body>
+</html>
