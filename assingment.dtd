@@ -1,0 +1,19 @@
+<DOCTYPE students[
+<!ELEMENT student(student+)>
+<!ELEMENT student(name, address+, phone, website)>
+<!ELEMENT name(#PCDATA)>
+<!ELEMENT address(#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT website (#PCDATA)>
+<!ATTLIST address
+    type (permanent|temporary) #REQUIRED>
+<!ATTLIST phone
+    digits CDATA #FIXED "10">
+]>
+<students>
+<student>
+<name>bhawana khadka</name>
+<address>itaqhari 7</address>
+<phone>9862530777</phone>
+<website>https://www.w3schools.com</website>
+</students>
